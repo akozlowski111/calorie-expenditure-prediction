@@ -87,11 +87,10 @@ Oblicz pochodne dla przypadku gdzie wszystkie parametry zainicjowane są z warto
 
 2. Odpowiedz na pytania:
 
-* Dla jakich rodzajów zadań warto rozpatrzyć użycie sieci neuronowej. Dlaczego nie można napisać ręcznie programu, (bez trenowania modelu) do predykcji wartości składającego się z samych if'ów?
-
-  Na przykład jeśli x1 = 5 oraz x2 = 1 to predykcja powinna być równa 5.6.
+* Dla jakich rodzajów zadań warto rozpatrzyć użycie sieci neuronowej. Dlaczego nie można napisać ręcznie programu (bez trenowania modelu) do predykcji wartości składającego się z samych if'ów? Na przykład precyzując warunki jeśli x1 = 5 oraz x2 = 1 to predykcja powinna być równa 5.6.
 * W jakim celu używane są funkcje aktywacji? Co się stanie jeśli w sieci o wielu warstwach ukrytych pozbędziemy się funkcji aktywacji?
 * Wyjaśnij rolę dropout'u w trenowaniu sieci neuronowych.
+
 
 
 
