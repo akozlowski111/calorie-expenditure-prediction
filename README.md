@@ -74,17 +74,20 @@ Finalny rezultat:
 
 ## Treść zadania teoretycznego
 
-1. Oblicz pochodne sieci neuronowej o następującej architekturze:
+1. Oblicz pochodne parametrów (w i b) sieci neuronowej o następującej architekturze:
 
 * Wejście: 2 cechy -> [x1, x2]  
 * Warstwa ukryta: 2 neurony + ReLU 
-* Wyjście: 1 neuron -> y
+* Wyjście: 1 neuron -> y (brak funkcji aktywacji)
 * Funkcja straty: Mean Squared Error
 * Jedna obserwacja wejściowa [x1, x2] -> [2, 3], y -> 5
+Czy sieć jest w stanie się uczyć gdy wszystkie parametry zostaną zainicjalizowane z wartością 0.0?
+Oblicz pochodne dla przypadku gdzie wszystkie parametry zainicjowane są z wartością 1.0.
 
 2. Odpowiedz na pytania:
 
-* Dla jakich rodzajów zadań warto rozpatrzyć użycie sieci neuronowej. Dlaczego nie można napisać ręcznie programu do predykcji wartości?
+* Dla jakich rodzajów zadań warto rozpatrzyć użycie sieci neuronowej. Dlaczego nie można napisać ręcznie programu, (bez trenowania modelu) do predykcji wartości składającego się z samych if'ów? Na przykład jeśli x1 = 5 oraz x2 = 1 to predykcja powinna być równa 5.6.
 * W jakim celu używane są funkcje aktywacji? Co się stanie jeśli w sieci o wielu warstwach ukrytych pozbędziemy się funkcji aktywacji?
 * Wyjaśnij rolę dropout'u w trenowaniu sieci neuronowych.
+
 
