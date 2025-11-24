@@ -1,0 +1,26 @@
+training:
+  seed: 42
+  val_fraction: 0.1
+  tuning_epochs: 10
+  final_epochs: 100
+  patience: 10
+
+search_space:
+  architectures:
+    - [7, 16, 8, 1]
+    - [7, 32, 16, 1]
+    - [7, 64, 32, 1]
+  learning_rates: [0.001, 0.01, 0.0001]
+  batch_sizes: [32, 64, 128]
+  momentums: [0.5, 0.9, 0.95]
+  dropout_rates: [0.0, 0.1, 0.2, 0.3]
+
+data:
+  train: "data/train.csv"
+  test: "data/test.csv"
+
+inference:
+  batch_size: 256
+  model_path: ""
+  stats_path: ""
+  submission_path: "outputs/submission.csv"
