@@ -1,0 +1,7 @@
+Najlepsze hiperparametry bez dropoutu:
+SearchResult(architecture=[7, 64, 32, 1], learning_rate=0.001, batch_size=32, momentum=0.95, dropout=0.0, val_rmsle=0.05569543283108507)
+
+Najlepsze hiperparametry z dropoutem:
+SearchResult(architecture=[7, 64, 32, 1], learning_rate=0.001, batch_size=32, momentum=0.95, dropout=0.0, val_rmsle=0.057962554924940186)
+
+Early stopping – epoka 43, val_rmsle=0.0548

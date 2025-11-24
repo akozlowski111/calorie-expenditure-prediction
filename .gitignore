@@ -9,8 +9,9 @@ wheels/
 # Virtual environments
 .venv
 
-# Hydra outputs
+# Hydra outputs (ignore all except summary files)
 outputs/*
+!outputs/**/training_summary.txt
 .DS_Store
 
 # Large data files
