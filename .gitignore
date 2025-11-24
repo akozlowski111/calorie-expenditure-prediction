@@ -9,9 +9,9 @@ wheels/
 # Virtual environments
 .venv
 
-# Hydra outputs (ignore all except summary files)
+# Hydra outputs (ignore all except best results from 2025-11-23)
 outputs/*
-!outputs/**/training_summary.txt
+!outputs/2025-11-23/16-41-18/**
 .DS_Store
 
 # Large data files
