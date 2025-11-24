@@ -12,3 +12,6 @@ wheels/
 # Hydra outputs
 outputs/*
 .DS_Store
+
+# Large data files
+data/train.csv
