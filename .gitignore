@@ -11,3 +11,4 @@ wheels/
 
 # Hydra outputs
 outputs/*
+.DS_Store
